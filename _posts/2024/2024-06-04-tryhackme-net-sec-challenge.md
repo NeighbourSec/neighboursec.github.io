@@ -5,14 +5,11 @@ date: 2024-06-07 19:19 +0100
 categories: [TryHackMe, Medium]
 tags: [brute-force, challenge, ctf, ftp, infosec, nmap, ssh, net-sec-challenge, telnet, writeup]
 toc: true
-media_subpath: '/assets/img/posts/tryhackme-net-sec-challenge'
-
+media_subpath: '/assets/img/posts/2024/tryhackme-net-sec-challenge'
+image: 
+  path: thumbnail.webp
+  alt: TryHackMe | Net Sec Challenge
 ---
-
-![Desktop View](thumbnail.png){: width="710" height="710" }
-
-
-***
 
 ## Introduction
 
@@ -211,7 +208,8 @@ Perfect, we have the flag.
 
 In this last question, we must perform an Nmap scan that goes undetected by the IDS to get the final flag. Sometimes, this challenge does not work from a local machine, it didn’t work on mine. Therefore, you may need to switch to an attackbox.
 
-![Desktop View](Screenshot_20240605_212503.png){: width="701" height="483" }
+![Desktop View](Screenshot_20240605_212503.webp)
+_The challenge as it appears in a web browser_
 
 Though scans performed with fragmented packets and other evasion techniques go undetected, only a null scan works and unveils the flag.
 
@@ -231,7 +229,8 @@ MAC Address: 02:5D:7F:94:CD:45 (Unknown)
 Nmap done: 1 IP address (1 host up) scanned in 93.02 seconds
 ```
 
-![Desktop View](Screenshot_20240605_214201.png){: width="673" height="434" }
+![Desktop View](Screenshot_20240605_214201.webp)
+_The now completed challenge, revealing the last flag we need_
 
 **After a successful scan, we get the flag and complete The Net Sec Challenge!**
 
