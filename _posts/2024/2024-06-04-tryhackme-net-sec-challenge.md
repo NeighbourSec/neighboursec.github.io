@@ -209,7 +209,7 @@ Perfect, we have the flag.
 In this last question, we must perform an Nmap scan that goes undetected by the IDS to get the final flag. Sometimes, this challenge does not work from a local machine, it didn’t work on mine. Therefore, you may need to switch to an attackbox.
 
 ![Desktop View](Screenshot_20240605_212503.webp)
-_The challenge as it appears in a web browser_
+_The challenge as it appears in a web browser._
 
 Though scans performed with fragmented packets and other evasion techniques go undetected, only a null scan works and unveils the flag.
 
@@ -230,7 +230,7 @@ Nmap done: 1 IP address (1 host up) scanned in 93.02 seconds
 ```
 
 ![Desktop View](Screenshot_20240605_214201.webp)
-_The now completed challenge, revealing the last flag we need_
+_The now completed challenge, revealing the last flag we need._
 
 **After a successful scan, we get the flag and complete The Net Sec Challenge!**
 
