@@ -177,7 +177,7 @@ ftp> ls
 226 Directory send OK.
 ftp> 
 ```
-Hm, it appears the flag is not in Eddie's directory. No matter, let's try logging in as Quinn instead.
+Hmm, it appears the flag is not in Eddie's directory. No matter, let's try logging in as Quinn instead.
 
 ```console
 neighboursec@kali:~$ ftp quinn@10.10.204.203 10021                                                                                                                                                                                                           
